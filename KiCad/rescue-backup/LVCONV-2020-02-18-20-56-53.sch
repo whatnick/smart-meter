@@ -1,5 +1,36 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ADE7816
+LIBS:SmartMeter-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +45,7 @@ Comment3 "CC BY 4.0 Tadashi Kadowaki"
 Comment4 "Smart meter"
 $EndDescr
 $Comp
-L SmartMeter-rescue:BSS138 Q1
+L BSS138 Q1
 U 1 1 56C9EFAC
 P 2550 1850
 F 0 "Q1" H 2750 1925 50  0000 L CNN
@@ -25,7 +56,7 @@ F 3 "" H 2550 1850 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R21
+L R R21
 U 1 1 56C9F09B
 P 2250 1700
 F 0 "R21" V 2330 1700 50  0000 C CNN
@@ -36,7 +67,7 @@ F 3 "" H 2250 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
+L R R22
 U 1 1 56C9F0CE
 P 2850 1700
 F 0 "R22" V 2930 1700 50  0000 C CNN
@@ -76,7 +107,7 @@ L1
 Text HLabel 3250 1950 2    60   BiDi ~ 0
 H1
 $Comp
-L SmartMeter-rescue:BSS138 Q2
+L BSS138 Q2
 U 1 1 56CA0884
 P 2550 3050
 F 0 "Q2" H 2750 3125 50  0000 L CNN
@@ -87,7 +118,7 @@ F 3 "" H 2550 3050 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R23
+L R R23
 U 1 1 56CA088A
 P 2250 2900
 F 0 "R23" V 2330 2900 50  0000 C CNN
@@ -98,7 +129,7 @@ F 3 "" H 2250 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R24
+L R R24
 U 1 1 56CA0890
 P 2850 2900
 F 0 "R24" V 2930 2900 50  0000 C CNN
@@ -138,7 +169,7 @@ L2
 Text HLabel 3250 3150 2    60   BiDi ~ 0
 H2
 $Comp
-L SmartMeter-rescue:BSS138 Q3
+L BSS138 Q3
 U 1 1 56CA0900
 P 2550 4250
 F 0 "Q3" H 2750 4325 50  0000 L CNN
@@ -149,7 +180,7 @@ F 3 "" H 2550 4250 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R25
+L R R25
 U 1 1 56CA0906
 P 2250 4100
 F 0 "R25" V 2330 4100 50  0000 C CNN
@@ -160,7 +191,7 @@ F 3 "" H 2250 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L R R26
 U 1 1 56CA090C
 P 2850 4100
 F 0 "R26" V 2930 4100 50  0000 C CNN
@@ -200,7 +231,7 @@ L3
 Text HLabel 3250 4350 2    60   BiDi ~ 0
 H3
 $Comp
-L SmartMeter-rescue:BSS138 Q4
+L BSS138 Q4
 U 1 1 56CA0961
 P 2550 5450
 F 0 "Q4" H 2750 5525 50  0000 L CNN
@@ -211,7 +242,7 @@ F 3 "" H 2550 5450 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R27
+L R R27
 U 1 1 56CA0967
 P 2250 5300
 F 0 "R27" V 2330 5300 50  0000 C CNN
@@ -222,7 +253,7 @@ F 3 "" H 2250 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L R R28
 U 1 1 56CA096D
 P 2850 5300
 F 0 "R28" V 2930 5300 50  0000 C CNN
@@ -262,7 +293,7 @@ L4
 Text HLabel 3250 5550 2    60   BiDi ~ 0
 H4
 $Comp
-L SmartMeter-rescue:BSS138 Q5
+L BSS138 Q5
 U 1 1 56CA09DA
 P 5450 1850
 F 0 "Q5" H 5650 1925 50  0000 L CNN
@@ -273,7 +304,7 @@ F 3 "" H 5450 1850 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R29
+L R R29
 U 1 1 56CA09E0
 P 5150 1700
 F 0 "R29" V 5230 1700 50  0000 C CNN
@@ -284,7 +315,7 @@ F 3 "" H 5150 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L R R30
 U 1 1 56CA09E6
 P 5750 1700
 F 0 "R30" V 5830 1700 50  0000 C CNN
@@ -324,7 +355,7 @@ L5
 Text HLabel 6150 1950 2    60   BiDi ~ 0
 H5
 $Comp
-L Device:Jumper_NO_Small JP2
+L Jumper_NO_Small JP2
 U 1 1 56CCCE6C
 P 2250 2150
 F 0 "JP2" H 2250 2230 50  0000 C CNN
@@ -339,7 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 2350 2850 2350
 $Comp
-L Device:Jumper_NO_Small JP3
+L Jumper_NO_Small JP3
 U 1 1 56CCD28E
 P 2250 3350
 F 0 "JP3" H 2250 3430 50  0000 C CNN
@@ -350,7 +381,7 @@ F 3 "" H 2250 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP4
+L Jumper_NO_Small JP4
 U 1 1 56CCD3F8
 P 2250 4550
 F 0 "JP4" H 2250 4630 50  0000 C CNN
@@ -361,7 +392,7 @@ F 3 "" H 2250 4550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP5
+L Jumper_NO_Small JP5
 U 1 1 56CCD451
 P 2250 5750
 F 0 "JP5" H 2250 5830 50  0000 C CNN
@@ -372,7 +403,7 @@ F 3 "" H 2250 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP6
+L Jumper_NO_Small JP6
 U 1 1 56CCD493
 P 5150 2150
 F 0 "JP6" H 5150 2230 50  0000 C CNN
@@ -399,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 5950 2850 5950
 $Comp
-L SmartMeter-rescue:BSS138 Q6
+L BSS138 Q6
 U 1 1 56D4B899
 P 5450 3050
 F 0 "Q6" H 5650 3125 50  0000 L CNN
@@ -410,7 +441,7 @@ F 3 "" H 5450 3050 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R31
+L R R31
 U 1 1 56D4B89F
 P 5150 2900
 F 0 "R31" V 5230 2900 50  0000 C CNN
@@ -421,7 +452,7 @@ F 3 "" H 5150 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L R R32
 U 1 1 56D4B8A5
 P 5750 2900
 F 0 "R32" V 5830 2900 50  0000 C CNN
@@ -461,7 +492,7 @@ L6
 Text HLabel 6150 3150 2    60   BiDi ~ 0
 H6
 $Comp
-L Device:Jumper_NO_Small JP7
+L Jumper_NO_Small JP7
 U 1 1 56D4B8BB
 P 5150 3350
 F 0 "JP7" H 5150 3430 50  0000 C CNN
@@ -476,7 +507,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3550 5750 3550
 $Comp
-L SmartMeter-rescue:BSS138 Q7
+L BSS138 Q7
 U 1 1 56D4B95B
 P 5450 4250
 F 0 "Q7" H 5650 4325 50  0000 L CNN
@@ -487,7 +518,7 @@ F 3 "" H 5450 4250 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R33
+L R R33
 U 1 1 56D4B961
 P 5150 4100
 F 0 "R33" V 5230 4100 50  0000 C CNN
@@ -498,7 +529,7 @@ F 3 "" H 5150 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R34
+L R R34
 U 1 1 56D4B967
 P 5750 4100
 F 0 "R34" V 5830 4100 50  0000 C CNN
@@ -536,7 +567,7 @@ LVCC
 Text HLabel 6150 4350 2    60   BiDi ~ 0
 H7
 $Comp
-L Device:Jumper_NO_Small JP8
+L Jumper_NO_Small JP8
 U 1 1 56D4B97D
 P 5150 4550
 F 0 "JP8" H 5150 4630 50  0000 C CNN
@@ -551,7 +582,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4750 5750 4750
 $Comp
-L SmartMeter-rescue:BSS138 Q8
+L BSS138 Q8
 U 1 1 56D4BA01
 P 5450 5450
 F 0 "Q8" H 5650 5525 50  0000 L CNN
@@ -562,7 +593,7 @@ F 3 "" H 5450 5450 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R35
+L R R35
 U 1 1 56D4BA07
 P 5150 5300
 F 0 "R35" V 5230 5300 50  0000 C CNN
@@ -573,7 +604,7 @@ F 3 "" H 5150 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R36
+L R R36
 U 1 1 56D4BA0D
 P 5750 5300
 F 0 "R36" V 5830 5300 50  0000 C CNN
@@ -613,7 +644,7 @@ L8
 Text HLabel 6150 5550 2    60   BiDi ~ 0
 H8
 $Comp
-L Device:Jumper_NO_Small JP9
+L Jumper_NO_Small JP9
 U 1 1 56D4BA23
 P 5150 5750
 F 0 "JP9" H 5150 5830 50  0000 C CNN
